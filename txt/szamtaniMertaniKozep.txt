@@ -1,0 +1,10 @@
+Program SzamtaniMertaniKozep
+	
+	int szam1, szam2
+	Ki: "Kérem az első számot: "
+	Be: szam1
+	Ki: "Kérem a második számot: "
+	Be: szam2
+	Ki: "A két szám számtani közepe: "+((szam1 + szam2) / 2)
+	Ki: "A két szám mértani közepe: "+sqrt(szam1 * szam2)
+Program vége

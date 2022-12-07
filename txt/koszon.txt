@@ -1,0 +1,8 @@
+Program Koszon
+
+	String: userName
+	Ki: "Írd be a felhasználó nevet: "
+	Be: userName
+	Ki: "Üdvözöllek" + userName
+
+Program vége

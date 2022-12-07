@@ -1,0 +1,6 @@
+Program Ketszeres
+
+	Ki: "Írj be egy számot: "
+	Ki: "A beírt szám kétszerese: " + a bekért szám kétszerese
+
+Program vége

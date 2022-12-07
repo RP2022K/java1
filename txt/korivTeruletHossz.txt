@@ -1,0 +1,11 @@
+Program KorivTeruletHossz
+
+	int sugar, szog
+	Ki: "Írd be a körív sugarat: "
+	Be: sugar
+	Ki: "Írd be a középponti szöget: "
+	Be: szog
+	Ki: "A körív területe: "+String.format("%.3f",(sugar*sugar*Math.PI*(szog/360)))
+	Ki: "A határoló ív hossza: "+String.format("%.3f",(2*sugar*Math.PI*(szog/360)))
+
+Program vége

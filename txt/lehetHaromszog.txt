@@ -1,0 +1,15 @@
+Program LehetHaromszog
+
+	valós szám: a, b, c
+	Ki: "Írd be az első oldalt: "
+	Be: a
+	Ki: "Írd be a második oldalt: "
+	Be: b
+	Ki: "Írd be a harmadik oldalt: "
+	Be: c
+	
+	Ha ((a + b) >= c és (a + c) >= b és (b + c) >= a) 
+	      Ki: "A háromszög megszerkeszthető"
+	különben Ki: "A háromszög nem szerkeszthető meg!"
+
+Program vége

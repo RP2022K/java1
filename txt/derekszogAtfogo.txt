@@ -1,0 +1,10 @@
+Program DerekszogAtfogo
+
+	valós szám: a, b
+	Ki: "Írd be a derékszögű háromszög egyik befogóját: "
+	Be: a
+	Ki: "Írd be a derékszögű háromszög másik befogóját: "
+	Be: b
+	Ki: "Az átfogó hossza: "+String.format("%.2f",sqrt((a*a)+(b*b)))
+	
+Program vége

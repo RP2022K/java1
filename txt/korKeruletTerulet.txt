@@ -1,0 +1,9 @@
+Program KorKeruletTerulet
+
+	int atmero
+	Ki: "A kör átmérője: "
+	Be: atmero
+	Ki: "A kör kerülete: "+String.format("%.3f",(Math.PI*atmero)
+	Ki: "A kör területe: "+String.format("%.3f",(Math.PI*(atmero/2)*(atmero/2))
+
+Program vége

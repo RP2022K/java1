@@ -1,0 +1,14 @@
+Program Teglatest
+
+	int a, b, c
+	Ki: "Írd be a téglatest éleinek hosszát!"
+	Ki: "a= "
+	Be: a
+	Ki: "b= "
+	Be: b
+	Ki: "c= "
+	Be: c
+	Ki: "A téglatest felszíne: "+2*((a*b)+(a*c)+(b*c))
+	Ki: "A téglatest térfogata: "+(a*b*c))
+	
+Program vége

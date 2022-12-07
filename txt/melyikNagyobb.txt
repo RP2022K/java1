@@ -1,0 +1,17 @@
+Program MelyikNagyobb
+
+	int elso, masodik
+	Ki: "Írd be az első számot: "
+	Be:elso
+	Ki: "Írd be a második számot: "
+	Be:masodik
+	Ha (elso > masodik) 
+	      Ki:"Az első szám a nagyobb: "+elso
+	különben 
+	      Ha (masodik > elso) 
+	            Ki:"A második szám a nagyobb: "+masodik
+	      különben
+	            Ki:"A két szám egyenlő!"
+	      elágazás vége
+	elágazás vége
+Program vége

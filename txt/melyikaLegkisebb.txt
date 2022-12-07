@@ -1,0 +1,13 @@
+Program MelyikaLegkisebb
+	
+	int tomb[3], legkisebb
+
+	legkisebb = Integer.MAX_VALUE
+	Ciklus (int i = 0; i < 3; i++)
+		Ki: "Kérem a(z) i. számot: "
+		Be: tomb[i]
+		Ha (tomb[i] < legkisebb) legkisebb = tomb[i]
+	Ciklus vége
+	Ki: "A legkisebb szám: " + legkisebb
+	      
+Program vége

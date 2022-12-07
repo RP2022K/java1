@@ -1,0 +1,15 @@
+Program Alapmuveletek
+	
+	int szam1, szam2
+	Ki: "Kérem az első számot: "
+	Be: szam1
+	Ki: "Kérem a második számot: "
+	Be: szam2
+	Ki: "A két szám összege: "+(szam1 + szam2)
+	Ki: "A két szám különbsége: "+(szam1 - szam2)
+	Ki: "A két szám szorzata: "+(szam1 * szam2)
+	Ha szam2 != 0
+		Ki: "A két szám hányadosa: "+(szam1 / szam2)
+	Különben Ki:"A nullával nem osztunk!"
+
+Program vége

@@ -1,0 +1,17 @@
+Program MasodfokuEgyenlet
+
+	int: a, b, c
+	double: d
+	Ki: "Írd be az első együtthatót: "
+	Be: a
+	Ki: "Írd be a második együtthatót: "
+	Be: b
+	Ki: "Írd be a harmadik együtthatót: "
+	Be: c
+	d = b*b - 4*a*c
+	Ha (d >=0) 
+	      Ki:"Az egyenlet megoldása: x1 = "+((-b+sqrt(d)) / (2*a))
+	      Ki:"x2 = "+((-b-sqrt(d)) / (2*a))
+	különben  
+	      Ki:"Az egyenletnek nincs megoldása!"
+Program vége

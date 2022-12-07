@@ -1,0 +1,5 @@
+Program HelloWorld
+
+	Ki: "Hello world!"
+
+Program vége
